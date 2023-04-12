@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: grey;
+}
+.http.container-fluid.waw {
+    background-color: orange;
+    margin-top: -8px;
+}
+.textile{
+	padding-bottom: 10px;
+}
+.my-back{
+	background-color: oldlace;
+}
+.just{
+	display: flex;
+	justify-items: center;
+}
+.margin{
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.gla{
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+}
+.fury{
+	text-decoration: none;
+	background-color: green;
+	color: black;
+	border-radius: 10px;
+}
+.fury:hover{
+	transform: scale(1.1);
+	transition: all .3s ease;
+	cursor: pointer;
+	background-color: skyblue;
+}
+.late-good{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+.hawa button{
+	border: none;
+}
+.radd{
+	border-radius: 10px;
+	background-color: oldlace;
+}
+.radd:hover{
+	background-color: skyblue;
+	transform:scale(1.1);
+	transition: all .3s ease;
+	cursor: pointer;
+}
+.buds{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+.pontainer{
+  max-width: 1170px;
+  margin:auto;
+}
+.rowa{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-cal{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-cal h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-cal h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-cal ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-cal ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-cal ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-cal .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-cal .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
